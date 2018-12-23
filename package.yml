@@ -1,15 +1,15 @@
 name       : patchutils
 version    : 0.3.4
-release    : 1
+release    : 2
 source     :
-    - http://cyberelk.net/tim/data/patchutils/stable/patchutils-0.3.4.tar.xz : cf55d4db83ead41188f5b6be16f60f6b76a87d5db1c42f5459d596e81dabe876
-license    : GPL-2.0
-component  : programming
+    - https://github.com/twaugh/patchutils/archive/0.3.4.tar.gz : 49510da6a9627bfe3c340eed69040ca513cdc56d0bc82dacec07c13e766ba550
+license    : GPL-2.0-or-later
+component  : programming.tools
 summary    : Collection of patch utilities
 description: |
     Collection of patch utilities
 setup      : |
-    %configure
+    %reconfigure
 build      : |
     %make
 install    : |

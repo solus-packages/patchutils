@@ -2,11 +2,11 @@
     <Source>
         <Name>patchutils</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
-        <PartOf>programming</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>programming.tools</PartOf>
         <Summary xml:lang="en">Collection of patch utilities</Summary>
         <Description xml:lang="en">Collection of patch utilities
 </Description>
@@ -17,18 +17,31 @@
         <Summary xml:lang="en">Collection of patch utilities</Summary>
         <Description xml:lang="en">Collection of patch utilities
 </Description>
-        <PartOf>programming</PartOf>
+        <PartOf>programming.tools</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/combinediff</Path>
+            <Path fileType="executable">/usr/bin/dehtmldiff</Path>
+            <Path fileType="executable">/usr/bin/editdiff</Path>
+            <Path fileType="executable">/usr/bin/espdiff</Path>
+            <Path fileType="executable">/usr/bin/filterdiff</Path>
+            <Path fileType="executable">/usr/bin/fixcvsdiff</Path>
+            <Path fileType="executable">/usr/bin/flipdiff</Path>
+            <Path fileType="executable">/usr/bin/grepdiff</Path>
+            <Path fileType="executable">/usr/bin/interdiff</Path>
+            <Path fileType="executable">/usr/bin/lsdiff</Path>
+            <Path fileType="executable">/usr/bin/recountdiff</Path>
+            <Path fileType="executable">/usr/bin/rediff</Path>
+            <Path fileType="executable">/usr/bin/splitdiff</Path>
+            <Path fileType="executable">/usr/bin/unwrapdiff</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-08-05</Date>
+        <Update release="2">
+            <Date>2018-12-23</Date>
             <Version>0.3.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
